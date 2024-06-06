@@ -1,0 +1,7 @@
+# SD
+
+**DIPENDENZE**
+
+**FUNZIONAMENTO**
+
+**CODICE**

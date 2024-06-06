@@ -1,0 +1,7 @@
+# PEDALE
+
+**DIPENDENZE**
+
+**FUNZIONAMENTO**
+
+**CODICE**
