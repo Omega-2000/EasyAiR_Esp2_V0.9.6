@@ -101,7 +101,7 @@ void IRAM_ATTR EM_pedale(void* arg);
 void IRAM_ATTR EM_emergenze(void* arg);
 void EM_configure_gpio_interrupt();
 bool EM_test_fotocellule();
-void EM_reset_loop();
+//void EM_reset_loop();
 
 void EM_start_azione(int8_t azione);
 void EM_start_azione_interrupt(int8_t azione);
