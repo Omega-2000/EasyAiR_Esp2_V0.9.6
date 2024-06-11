@@ -55,7 +55,9 @@
     "esp_task_wdt.h": "c",
     "twai_types.h": "c",
     "condition_variable": "c",
-    "mutex": "c"
+    "mutex": "c",
+    "esp_partition.h": "c",
+    "esp_err.h": "c"
   },
   "idf.flashType": "UART",
   "idf.portWin": "COM14",

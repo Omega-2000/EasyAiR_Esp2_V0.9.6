@@ -34,7 +34,7 @@ bool checkupdate();
     Device :0 selft , 1 Display , 3 Driver
 */
 bool updateSpiffs(uint8_t device);
-bool notify();
+//bool notify();
 esp_err_t perform_ota_update(const char *file_path) ;
 
 long getFileSize(const char* filePath) ;

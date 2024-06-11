@@ -54,14 +54,10 @@ extern bool FAILED_write_statistiche_in_SD;
 
 esp_err_t SD_init(Sd* sd, uint8_t miso, uint8_t mosi, uint8_t clk, uint8_t cs);
 esp_err_t SD_SPI_begin(Sd* sd);
+bool SD_check(Sd* sd, const char *path, const char *object);
 esp_err_t SD_write(Sd* sd, uint8_t num_file, const char *string);
 esp_err_t SD_read(Sd* sd, uint8_t num_file);
-esp_err_t SD_empty(Sd* sd, uint8_t num_file);
-esp_err_t SD_rename(Sd* sd, uint8_t num_file, const char *string);
-void SD_mkdir(Sd* sd, const char *path, const char *string);
 esp_err_t SD_listDir(Sd* sd, const char *path);
-bool SD_check(Sd* sd, const char *path, const char *object);
-void SD_read_statistics();      //  ORE DI UTILIZZO
 esp_err_t SD_operation(Sd* sd, bool operation, uint8_t n_file, char *s);
 
 #ifdef __cplusplus
