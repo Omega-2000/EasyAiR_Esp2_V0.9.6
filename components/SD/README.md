@@ -17,3 +17,20 @@ All'inizio del programma dovrà essere chiamata la funzione "SD_init()" che iniz
 - SD_read(Sd* sd, uint8_t num_file);  //  legge un file
 - SD_listDir(Sd* sd, const char *path);  //  mostra il contenuto di una cartella
 - SD_operation(Sd* sd, bool operation, uint8_t n_file, char *s);  //  funzione utilizzata per eseguire la funzione "SD_write" o la funzione "SD_read"
+
+**CONTENUTO SCHEDA SD**
+- updates
+  - Display
+    - Data
+    - firmware.bin
+  - Driver
+    - firmware.bin
+  - Self
+    - firmware.bin
+  - versions.txt
+
+- statistics.txt
+
+- temperatures.csv
+
+- values.txt
