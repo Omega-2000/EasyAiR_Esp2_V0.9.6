@@ -29,8 +29,8 @@ All'inizio del programma dovrà essere chiamata la funzione "SD_init()" che iniz
     - firmware.bin
   - versions.txt
 
-- statistics.txt
+- statistics.txt        -->     file contenente i minuti di utilizzo della macchina, del motore e del pid
 
-- temperatures.csv
+- temperatures.csv      -->     file contenente un log del funzionamento del pid
 
 - values.txt
