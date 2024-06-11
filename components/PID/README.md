@@ -7,6 +7,7 @@
 - "esp_task_wdt.h" --> componente utilizzato per la gestione del watchdog
 
 **FUNZIONAMENTO**
+
 Per poter utilizzare tutte le funzioni riguardanti il pid, all'inizio del programma serve inizializzare l'i2c, il pid e impostare i valori che gli servono per funzionare. Successivamente si potrà utilizzare a pieno il funzionamento del pid. Servirà far partire il pid con la funzione "PID_start()" e si potrà richiamare in loop la funzione "PID_task()" per fargli controllare la temperatura letta dal sensore e successivamente richiamerà la funzione "PID_control_heater()" che a sua volta richiamerà "PID_calculateValue()" e accenderà/spegnerà l'ssr collegato all'uscita del pid. Per fermare il funzionamento del pid basterà chiamare la funzione "PID_stop()".
 
 **CODICE**
