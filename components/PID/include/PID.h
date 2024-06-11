@@ -114,15 +114,12 @@ float PID_getKi(Pid* pid);
 float PID_getKd(Pid* pid);
 float PID_getOffset(Pid* pid);
 float PID_calculateValue(Pid* pid);
-
 void PID_temp_in_SD();
 void PID_check_temperatura_attuale(Pid* pid, uint8_t t_attuale);
 //void PID_send_temperatura_iniziale(Pid* pid);
-
 void PID_init_WDT();
 void PID_deinit_WDT();
 //void PID_check_WDT(Pid* pid);
-
 void PID_avvio_in_SD();
 //void PID_scrivi_file_SD(char *s);
 
