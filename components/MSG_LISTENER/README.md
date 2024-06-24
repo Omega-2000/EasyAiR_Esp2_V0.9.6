@@ -10,6 +10,7 @@
 - "Updater.h" --> componente utilizzato per l'aggiornamento
 
 **FUNZIONAMENTO**
+
 Componente principale su cui si basa il funzionamenteo di tutte le funzionalità di questo microcontrollore (tranne il pid). La funzione "macchina_ready()" deve essere richiamata all'inizio del programma dopo l'inizializzazione di tutto per eseguire il ciclo d'avvio ed essere sicuro che la macchina possa essere funzionante. Invece la funzione "MSG_message_receiver()" deve essere richiamata ll'interno del loop principale per far interpretare correttamente i messaggi in arrivo ed eseguire le funzioni opportune in base alla richiesta ricevuta. Tutte le altre funzioni servono per gestire i millis dei 3 tempi di utilizzo salvati all'interno dello spiff e i file "values.txt" e "statistics.txt" salvati all'interno della scheda sd.
 
 **CODICE**
