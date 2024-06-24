@@ -4,6 +4,7 @@
 - "TWAI.h" --> componente utilizzato per la gestione dei messaggi canbus da inviare e da ricevere
 
 **FUNZIONAMENTO**
+
 Componente composto da funzioni che sono utilizzate per il trasferimento dei file dell'aggiornamento
 
 **CODICE**
