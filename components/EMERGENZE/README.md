@@ -6,6 +6,7 @@
 - "ELETTROVALVOLE.h" --> componente utilizzato per la gestione dell'elettrovalvole
 
 **FUNZIONAMENTO**
+Gli interrupt dell'emergenze e del pedale scatteranno in automatico se inizializzati prima con la funzione "EM_configure_gpio_interrupt()". Richiamare la funzione "EM_test_fotocellule()" per eseguire il test della fotocellula e la funzione "EM_loop()" all'interno del loop principale che gestirà le "azioni emergenze" tramite la funzione "EM_start_azione()" e tutto il resto.
 
 **CODICE**
 - IRAM_ATTR EM_emergency(bool funghi);          //  funzione di interrupt 
