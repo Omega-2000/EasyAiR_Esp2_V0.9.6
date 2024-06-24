@@ -55,7 +55,7 @@ extern bool crea_file_in_SPIFF;
 esp_err_t SPIFFS_init(ConfigData* config);
 esp_err_t SPIFFS_write_(ConfigData* config);        //  ( SALVA SU FILE )
 int8_t SPIFFS_read_(ConfigData* config);            //  ( SALVA SU OGGETTO )
-bool SPIFFS_check_(ConfigData* config, uint8_t minT, uint8_t maxT, uint8_t kp, uint8_t ki, uint8_t kd, uint8_t offset, uint8_t minS, uint8_t maxS, uint8_t reverseS, uint8_t turtleS);      //  CHECK DA OGGETTO A VALORI PASSATI COME PARAMETRI
+//bool SPIFFS_check_(ConfigData* config, uint8_t minT, uint8_t maxT, uint8_t kp, uint8_t ki, uint8_t kd, uint8_t offset, uint8_t minS, uint8_t maxS, uint8_t reverseS, uint8_t turtleS);      //  CHECK DA OGGETTO A VALORI PASSATI COME PARAMETRI
 uint8_t SPIFFS_remove_(const char *filename);
 //void SPIFFS_update_values(ConfigData* config, uint8_t minT, uint8_t maxT, uint8_t kp, uint8_t ki, uint8_t kd, uint8_t offset, uint8_t minS, uint8_t maxS, uint8_t reverseS, uint8_t turtleS);
 
