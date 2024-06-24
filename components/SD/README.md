@@ -31,6 +31,8 @@ All'inizio del programma dovrà essere chiamata la funzione "SD_init()" che iniz
 
 - statistics.txt        -->     file contenente i minuti di utilizzo della macchina, del motore e del pid
 
-- temperatures.csv      -->     file contenente un log del funzionamento del pid
+- temperatures.csv      -->     file contenente un log del funzionamento del pid e della macchina
+                                (avvio macchina, stato pid ogni secondo [stato acceso/spento, target temperatura da raggiungere, temperatura letta in quel secondo], pid on, pid off, emergenze scattate)
 
-- values.txt
+- values.txt            -->     file contenente i valori che servono alla macchina per far funzionare le varie funzionalità
+                                (al primo avvio ci saranno i valori di default dati dal preset della scheda sd, mentre poi verranno salvati i nuovi valori se modificati)
